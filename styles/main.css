@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+
+p {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+nav {
+  display: none;
+}
+
+.mobile-main-header {
+  height: 64px;
+  border-bottom: 1px solid black;
+}
+.mobile-main-header .mobile-main-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mobile-main-header .mobile-main-header-container .left-section {
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+.mobile-main-header .mobile-main-header-container .left-section .mobile-user-icon {
+  width: 28px;
+  height: 28px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mobile-main-header .mobile-main-header-container .left-section .mobile-notification-icon {
+  width: 26px;
+  height: 26px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+.mobile-main-header .mobile-main-header-container .middle-section {
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+.mobile-main-header .mobile-main-header-container .middle-section .mobile-bbc-logo {
+  width: 112px;
+  height: 32px;
+}
+.mobile-main-header .mobile-main-header-container .right-section {
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+.mobile-main-header .mobile-main-header-container .right-section .mobile-menu-icon {
+  width: 24px;
+  height: 22px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.mobile-main-header .mobile-main-header-container .right-section .mobile-search-icon {
+  width: 28px;
+  height: 29px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mobile-secondary-header {
+  height: 58px;
+  border-bottom: 1px solid black;
+  background-color: #FFD230;
+}
+.mobile-secondary-header .mobile-secondary-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 58px;
+}
+.mobile-secondary-header .mobile-secondary-header-container .mobile-BBC-Sports-text {
+  height: 30px;
+}
+.mobile-secondary-header .mobile-secondary-header-container .all-sports {
+  border: 1px solid black;
+  padding: 7px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.mobile-secondary-header .mobile-secondary-header-container .all-sports .mobile-secondary-menu-icon {
+  width: 14px;
+  height: 13px;
+}
+.mobile-secondary-header .mobile-secondary-header-container .all-sports .menu-text {
+  margin-left: 5px;
+}
+
+.mobile-hero {
+  padding-top: 16px;
+  height: 423px;
+}
+.mobile-hero .mobile-main-article-container {
+  width: 503px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.mobile-hero .mobile-main-article-container .top-column {
+  display: flex;
+  align-items: center;
+}
+.mobile-hero .mobile-main-article-container .top-column .main-article-thumbnail {
+  width: 503px;
+}
+.mobile-hero .mobile-main-article-container .bottom-column .main-article-title {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.mobile-hero .mobile-main-article-container .bottom-column .main-article-opening {
+  color: gray;
+  font-weight: normal;
+  font-size: 14px;
+}
+.mobile-hero .mobile-main-article-container .bottom-column .main-article-tag {
+  color: green;
+  font-weight: normal;
+  padding-top: 5px;
+}/*# sourceMappingURL=main.css.map */
