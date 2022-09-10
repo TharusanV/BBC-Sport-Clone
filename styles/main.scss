@@ -9,37 +9,396 @@ p {
   font-size: 13px; 
 }
 
+@media (min-width: 1280px){
+  .mobile-wrapper{
+    display: none;
+  }
+
+  .desktop-main-header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 64px;
+    background-color: white;
+    ul.header-nav{
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      width: 1248px;
+      padding-left: 16px;
+      padding-right: 16px;
+      margin-left: 90.5px;
+      margin-right: 90.5px;
+    }
+    
+    .website-icons{
+      vertical-align: middle;
+      width: 16px;
+      height: 16px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+    }
+
+    .bbc-logo{
+      width: 112px;
+      height: 32px;
+      padding-right: 20px;
+      .bbc-logo-icon{
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .bbc-account{
+      width: 176px;
+      height: 64px;
+      .user-icon{
+        margin-right: 6px;
+        height: 28px;
+      }
+    }
+
+    .bbc-notification{
+      width: 48px;
+      height: 64px;
+      .notification-icon{
+        width: 22px;
+        height: 24px;
+      }
+    }
+
+    .vertical-line{
+      height: 24px;
+      width: 17px;
+      list-style-position:inside;
+      border-left: 1px solid black;
+    }
+
+    .bbc-options{
+      width: 48px;
+      height: 64px;
+      margin-right: 11px;
+      .options-menu-icon{
+        width: 20px;
+        height: 64px;
+        margin-left: 14px;
+        margin-right: 14px;
+
+      }
+    }
+
+    .bbc-search{
+      width: 224px;
+      height: 64px;
+      .search-icon{
+        width: 24px;
+        height: 64px;
+      }
+    }
+
+    .nav-class{
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    li{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      a{
+        color: black;
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 13px;
+        display: inline-block;
+        vertical-align: middle; 
+      }
+    }
+  }
+
+  .hamburger-menu-navigator{
+    display: none;
+  }
+
+  .secondary-header{
+    height: 62px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #FFD230;
+    .secondary-header-container{
+      width: 1248px;
+      display: flex;
+      align-items: center;
+      .BBC-Sports-text{
+        vertical-align: middle;
+      }
+    }
+    .all-sports{
+      display: none;
+    }
+  }
+
+
+  .sports-navigator{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 31px;
+    background-color: #FFD230;
+    ul.category-nav{ 
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      width: 1248px;
+    }
+
+    .home-text{
+      margin-left: 0;
+    }
+
+    .football-text{
+      margin: 0;
+      padding: 8px;
+      background-color: black;
+      a{
+        color: white;
+      }
+    }
+
+    li{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin-left: 8px;
+      margin-right: 8px;
+      height: 15px;
+
+      a{
+        color: black;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Arial;
+        display: inline-block;
+        vertical-align: middle; 
+      }
+    }
+  }
+
+
+  .sub-header-navigator{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 31px;
+    background-color: black;
+    ul.sub-nav{ 
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      width: 1248px;
+    }
+
+    li{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      height: 15px;
+
+      a{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Arial;
+        display: inline-block;
+        vertical-align: middle; 
+      }
+    }
+  }
+
+  .main-body{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 1280px;
+    height: 100%;
+    .hero{
+      display: flex;
+      width: 1248px;
+      padding-top: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+      .all-article-container{
+        display: flex;
+        width: 948px;
+        flex-wrap: wrap;
+        .main-article-container{
+          display: flex;
+          flex-direction: row;
+          width: 695px;
+          height: 292.3px;
+          .left-column{
+            width: 456px;
+            height: 257px;
+            .main-article-thumbnail{
+              width: 100%;
+            }
+          }
+          .right-column{
+            max-width: 224px;
+            margin-left: 15px;
+            .main-article-title{
+              font-size: 25px;
+              font-family: Arial;
+              font-weight: bold;
+              margin-top: 0;
+              margin-bottom: 0;
+              color: black
+            }
+            .main-article-opening{
+              font-family: Arial;
+              font-weight: normal;
+              font-size: 14px;
+              color: grey;
+            }
+            .main-article-tag{
+              display: flex;
+              font-weight: bold;
+              margin-top: 50px
+            }
+          }
+        }
+        .sub-main-article-container{
+          width: 253px;
+          height: 292.3px;
+          .top-column{
+            float: right;
+            width: 222px;
+            height: 126px;
+            .secondary-article-thumbnail{
+              width: 100%;
+            }
+          }
+          .bottom-column{
+            float: right;
+            width: 222px;
+            .secondary-article-title{
+              font-family: Arial;
+              font-weight: bold;
+              font-size: 15px;
+              margin-top: 10px;
+              margin-bottom: 0;
+            }
+            .secondary-article-tag{
+              color: green;
+              font-weight: normal;
+              margin-top: 40px;
+            }
+          }
+        }
+        .secondary-article-container {
+          display: grid;
+          column-gap: 16px;
+          row-gap: 0;
+          grid-template-columns: repeat(4, 224px);
+          .secondary-article{
+            height: 231.2px;
+            .top-column{
+              width: 224px;
+              height: 126px;
+              .secondary-article-thumbnail{
+                width: 100%;
+              }
+            }
+            .bottom-column{
+              width: 224px;
+              .secondary-article-title{
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 15px;
+                margin-top: 10px;
+                margin-bottom: 0;
+              }
+              .secondary-article-tag{
+                color: green;
+                font-weight: normal;
+                margin-top: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px){
+
+}
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 600px){
+  .desktop-wrapper{
+    display: none;
+  }
+
+  .sports-navigator{
+    display: none;
+  }
 
   .mobile-main-header {
     height: 64px;
-    border-bottom: 1px solid black;
-  
-    nav{
-      display: none;
-    }
-
-    .mobile-main-header-container{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    .main-header-container{
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       padding-left: 20px;
       padding-right: 20px;
-  
       .left-section{
         height: 64px;
         display: flex;
         align-items: center;
-      
-        .mobile-user-icon{
+        .user-icon{
           width: 28px;
           height: 28px;
           padding-left: 10px;
           padding-right: 10px;
         }
-        
-        .mobile-notification-icon{
+        .notification-icon{
           width: 26px;
           height: 26px;
           padding-left: 11px;
@@ -53,7 +412,7 @@ p {
         display: flex;
         align-items: center;
       
-        .mobile-bbc-logo{
+        .bbc-logo{
           width: 112px;
           height: 32px;
         }
@@ -65,14 +424,14 @@ p {
         display: flex;
         align-items: center;
       
-        .mobile-menu-icon{
+        .menu-icon{
           width: 24px;
           height: 22px;
           padding-left: 12px;
           padding-right: 12px;
         }
         
-        .mobile-search-icon{
+        .search-icon{
           width: 28px;
           height: 29px;
           padding-left: 10px;
@@ -87,12 +446,12 @@ p {
   
   
   
-  .mobile-secondary-header {
+  .secondary-header {
     height: 58px;
     border-bottom: 1px solid black;
     background-color: #FFD230;
   
-    .mobile-secondary-header-container{
+    .secondary-header-container{
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -101,7 +460,7 @@ p {
       padding-right: 16px;
       height: 58px;
     
-      .mobile-BBC-Sports-text{
+      .BBC-Sports-text{
         height: 30px;
       }
     
@@ -111,7 +470,7 @@ p {
         margin-left: 1px;
         margin-right: 1px;
     
-        .mobile-secondary-menu-icon{
+        .secondary-menu-icon{
           width: 14px;
           height: 13px;
         }
@@ -126,10 +485,10 @@ p {
   
   
   
-  .mobile-hero{
+  .hero{
     padding-top: 16px;
     
-    .mobile-main-article-container{
+    .main-article-container{
       min-width: 451px;
       padding-left: 16px;
       padding-right: 16px;
@@ -166,7 +525,7 @@ p {
   
   .secondary-section{
     margin-top: 20px;
-    .mobile-secondary-articles-container{
+    .secondary-articles-container{
       display: flex;
       flex-direction: row;
       min-width: 451px;
@@ -223,7 +582,7 @@ p {
 
 
   .further-secondary-section{
-    .mobile-further-secondary-articles-container{
+    .further-secondary-articles-container{
       min-width: 451px;
       padding-left: 16px;
       padding-right: 16px;
@@ -298,34 +657,60 @@ p {
   }
 
 
-
-
   nav.menu-btn{
     display: block;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 11.2px;
   }
-  nav{
-    position: absolute;
+  .hamburger-menu-navigator{
+    display: none;
     z-index: 999;
     width: 100%;
     right: 0;
-    top: 64px;
     background-color: white;
-    height: 350px;
     padding: 1em;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    
+    .menu-exit{
+      width: 16px;
+      display: flex;
+      float: right;
+      margin-right: 15px;
+      margin-top: 20px;
+    }
+
+    img{
+      vertical-align: middle;
+      width: 16px;
+      height: 16px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+    }
 
     ul.main-nav{
-      margin-top: 32px ;
+      padding-left: 16px;
+      margin: 0px;
+      column-count: 2;
     }
     li{
       list-style: none;
+      width: 199.5px;
+      height: 64px;
+      padding: 0px;
+      display: flex;
+      align-items: center;
+
       a{
         color: black;
         text-decoration: none;
-        display: block;
-        padding: .5em;
-        font-size: 1.3em;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1rem;
+        font-weight: bold;
         text-align: left;
+        font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
 
         &:hover{
           font-weight: bold;
@@ -333,9 +718,41 @@ p {
       }
     }
   }
-  .mobile-menu-exit{
-    float: right;
-    width: 32px;
+
+  
+  .sub-header-navigator{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    ul.sub-nav{
+      padding: 0;
+      margin: 0;
+      overflow-x:hidden;
+      white-space:nowrap;
+      padding-left: 10px; 
+      display: flex;
+      align-items: center;
+    }
+
+    li{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      height: 15px;
+
+      a{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Arial;
+        display: inline-block;
+        vertical-align: middle; 
+      }
+    }
   }
 
 }
@@ -343,9 +760,7 @@ p {
 
 
 
-@media (max-width: 900px){
 
-}
 
 
 
